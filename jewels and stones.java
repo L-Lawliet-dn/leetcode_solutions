@@ -37,9 +37,9 @@ class Solution {
 
 // Analysis
 
-- the user has used the concept that if the char in stones exists in jewels, then +1. If not, that condition is checked by keeping the check 
-- "if jewels.charAt(stones.charAt(i)) !=-1".
-- since the get char function will return -1, so that char will be skipped.
-// Note
-• I used hashmap and got 2ms. Unnecessary data structure used.
-• Should have sought to seek some pattern and writet the code accordingly
+// - the user has used the concept that if the char in stones exists in jewels, then +1. If not, that condition is checked by keeping the check 
+// - "if jewels.charAt(stones.charAt(i)) !=-1".
+// - since the get char function will return -1, so that char will be skipped.
+// // Note
+// • I used hashmap and got 2ms. Unnecessary data structure used.
+// • Should have sought to seek some pattern and writet the code accordingly
